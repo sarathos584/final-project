@@ -1,0 +1,47 @@
+@import "../../../custom-styles/variables.scss";
+@import "../../../custom-styles/mixins.scss";
+
+nav {
+  @include grayText
+  }
+
+@include logo; //logo styling from mixins
+.navbar-toggler {
+  border: none;
+  color: $gray-text-color;
+  border-color: transparent;
+  outline: none;
+  box-shadow: none;
+  &:focus,
+  &:hover {
+    background-color: transparent !important;
+  }
+}
+/* Customize the dropdown menu */
+.dropdown-menu {
+  background-color: #fdfeff;
+  border: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  max-width: 40dvw;
+  white-space: wrap;
+  .dropdown-item {
+    color: $gray-text-color;
+    font-size: $normal-text-size;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease;
+    &:hover {
+      background-color: #e9ecef;
+      color: $primary-blue;
+    }
+  }
+}
+.dropdown-divider {
+  margin: 0;
+  border-top: 1px solid #dee2e6;
+}
+@media screen and (max-width: 576px) {
+  nav {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}

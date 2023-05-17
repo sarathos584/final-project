@@ -1,0 +1,12 @@
+@mixin logo {
+  .brand {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+}
+@mixin grayText {
+  font-size: $normal-text-size;
+  a:hover {
+    color: $primary-blue;
+  }
+}
