@@ -1,7 +1,7 @@
 <section>
   <header>
     <div class="container form-container">
-      <form action="#!">
+      <form action="#!" class="mx-0">
         <div class="form-outline">
           <select name="Job" id="jobType">
             <option value="everything">Everything</option>
@@ -19,15 +19,48 @@
         </div>
         <div class="form-outline">
             <input type="text" id="location" placeholder="Everywhere">
-            <label for="location" id="location"><span class="material-symbols-outlined">
+            <label for="location"><span class="material-symbols-outlined">
                 location_on
                 </span></label>
         </div>
-        <button type="submit" class="btn btn-primary"><span class="material-symbols-outlined">
+        <button type="submit" class="btn btn-primary d-flex justify-content-center align-items-center my-0"><span class="material-symbols-outlined">
             search
             </span>Search</button>
       </form>
     </div>
   </header>
-  <main></main>
+
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img src="../../../assets/Shout.webp" class="card-img-top"/>
+            <div class="card-body">
+              <h1 class="card-title"><a href="#!">Volunteering and Events</a></h1>
+              <p class="card-text">Explore our volunteer, event, and action listings to discover ways to make an impact in your community.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img src="../../../assets/Tools.svg" class="card-img-top"/>
+            <div class="card-body">
+              <h1 class="card-title"><a href="#!">Social-Impact Jobs</a></h1>
+              <p class="card-text">Use our location, experience level, and issue area job-search filters to find your perfect-fit career opportunity.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img src="../../../assets/Money.svg" class="card-img-top"/>
+            <div class="card-body">
+              <h1 class="card-title"><a href="#!">Salary Explorer</a></h1>
+              <p class="card-text">Find your earning potential with our new salary calculator that allows you to compare salaries and possible career paths.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
 </section>
