@@ -1,23 +1,23 @@
 @import "../../../custom-styles/variables.scss";
 @import "../../../custom-styles/mixins.scss";
-section{
-@include grayText;
-}
-.language-list{
+.footer-extra,.language-list{
     a{
         text-decoration: none;
         color: $gray-text-color;
+        @include grayText
     }
 }
-.donation{
-    width: 100%;
+
+
+.vertical-divider {
+  border-right: 1px solid $gray-text-color;
+  display: inline;
 }
-.vertical-divider{
-    border-right: 1px solid $gray-text-color;
-    display: inline;
-}
-@media screen and (max-width:1200px) {
-    .footer-extra{
-       display: none;
-    }
+@media screen and (max-width: 1200px) {
+  .footer-extra {
+    display: none;
+  }
+  .donation{
+    width: 90dvw;
+  }
 }

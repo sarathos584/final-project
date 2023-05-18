@@ -1,0 +1,41 @@
+@import '../../../custom-styles/variables.scss';
+header {
+  background-image: url(../../../assets/home-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100dvw;
+  height: 100dvh;
+}
+.form-container {
+  max-width: 35dvw;
+  height: 50dvh;
+  padding: 2rem;
+  background-color: white;
+  position: absolute;
+  top: 20rem;
+  left: 5rem;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.52);
+  -moz-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.52);
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.52);
+}
+.form-outline {
+  margin-bottom: 1rem;
+  input,
+  select {
+    width: 100%;
+    outline: none;
+    border: 1px solid black;
+    border-radius: .4rem;
+    padding: .6rem;
+    &:hover{
+        border: 1px solid $primary-blue;
+    }
+  }
+}
+button {
+  width: 100%;
+}
+#location{
+    position: relative;
+}

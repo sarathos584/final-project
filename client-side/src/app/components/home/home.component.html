@@ -1,4 +1,33 @@
-<section class="vh-100">
-    <header></header>
-    <main></main>
+<section>
+  <header>
+    <div class="container form-container">
+      <form action="#!">
+        <div class="form-outline">
+          <select name="Job" id="jobType">
+            <option value="everything">Everything</option>
+            <option value="job">Job</option>
+            <option value="internships">Internships</option>
+            <option value="volunteerOpportunities">
+              Volunteer Opportunities
+            </option>
+            <option value="organizations">Organizations</option>
+            <option value="gradPrograms">Grad Programs</option>
+          </select>
+        </div>
+        <div class="form-outline">
+            <input type="text" placeholder="Search by Keyword, skill or interests">
+        </div>
+        <div class="form-outline">
+            <input type="text" id="location" placeholder="Everywhere">
+            <label for="location" id="location"><span class="material-symbols-outlined">
+                location_on
+                </span></label>
+        </div>
+        <button type="submit" class="btn btn-primary"><span class="material-symbols-outlined">
+            search
+            </span>Search</button>
+      </form>
+    </div>
+  </header>
+  <main></main>
 </section>

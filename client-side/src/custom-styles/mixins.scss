@@ -10,3 +10,10 @@
     color: $primary-blue;
   }
 }
+
+@mixin verticalDivider{
+  .vertical-divider {
+    border-right: 1px solid $gray-text-color;
+    display: inline;
+  }
+}
