@@ -89,6 +89,29 @@ label[for="location"] {
   border-top: .5px solid rgba(190, 188, 188, 0.836);
   width: 90%;
 }
+
+.career-advice {
+  h3{
+    font-weight: 600;
+  }
+  img{
+    display: block;
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    margin: 3rem auto;
+  }
+  a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: $normal-text-size;
+    &:hover{
+      text-decoration:underline;
+      color: $dark-blue;
+    }
+  }
+
+}
 @media screen and (max-width: 469px) {
   header {
     background-image: url(../../../assets/home-bg-mobile.jpg);
