@@ -1,5 +1,9 @@
 @import "../../../custom-styles/variables.scss";
 @import "../../../custom-styles/mixins.scss";
+
+
+
+
 .footer-extra,.language-list{
     a{
         text-decoration: none;
@@ -7,8 +11,6 @@
         @include grayText
     }
 }
-
-
 .vertical-divider {
   border-right: 1px solid $gray-text-color;
   display: inline;

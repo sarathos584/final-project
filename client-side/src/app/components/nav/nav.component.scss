@@ -1,7 +1,7 @@
 @import "../../../custom-styles/variables.scss";
 @import "../../../custom-styles/mixins.scss";
 nav {
-  @include grayText
+  @include grayText;
   }
 
 @include logo; //logo styling from mixins
