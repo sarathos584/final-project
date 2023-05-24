@@ -7,7 +7,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NavComponent } from './components/nav/nav.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
-import { AddNewListComponent } from './add-new-list/add-new-list.component';
+import { AddNewListComponent } from './components/add-new-list/add-new-list.component';
+import { LoginComponent } from './components/login/login.component';
+import { WelcomeComponent } from './components/welcome/welcome.component';
 
 @NgModule({
   declarations: [
@@ -15,14 +17,12 @@ import { AddNewListComponent } from './add-new-list/add-new-list.component';
     NavComponent,
     FooterComponent,
     HomeComponent,
-    AddNewListComponent
+    AddNewListComponent,
+    LoginComponent,
+    WelcomeComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    NgbModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, NgbModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
